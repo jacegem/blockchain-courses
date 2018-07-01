@@ -1,3 +1,5 @@
+# Blockchain at Berkeley
+
 https://dreamplus.io/blockchain_academy1
 
 ## 1.강의 소개
@@ -16,7 +18,9 @@ https://dreamplus.io/blockchain_academy1
 
 ## 2. 커리큘럼
 
-1.  개요: 프로토콜과 합의
+### Topics
+
+1.  개요: 프로토콜과 합의 (2018.07.01)
 2.  비트코인의 역사
 3.  비트코인 메커니즘과 최적화
 4.  비트코인 IRL: 지갑, 마이닝(채굴) 외
