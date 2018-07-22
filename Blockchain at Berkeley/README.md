@@ -32,3 +32,38 @@ https://dreamplus.io/blockchain_academy1
 10. 블록체인 확장성: 대중을 위한 암호화폐
 11. 익명성: 믹싱과 알트코인
 12. 고급 주제: The People's Pick
+
+# 비트코인의 역사
+
+## LIBERTARIAN DREAMS
+
+- Cypherpunks and Crypto-anarchists: libertarian groups concerned with privacy, and advocated cryptography as an important toll
+- "Privacy is the power to seletiely reveal oneself to the world"
+- "Privacy is an opensociety requires anonymous transaction systems"
+
+# 3. 비트코인 메커니즘과 최적화
+
+Avalanche effect: a small change in the input produces a pseudorandom change in the output.
+
+- Often a significant different from the first output
+- Prevents 'hot or cold' game with inputs to produce or predict outputs
+
+blockID = H(blockHeader) = H(prevBlockHas || merkleRoot || nonce)
+
+# 4. 비트코인 IRL: 지갑, 마이닝(채굴) 외
+
+## Simple Payment Verification
+
+A method for verifying if particular transactins are included in a block without downloading the entire blok
+
+Keep track of your transactions only
+
+Lightweight or thin clients
+
+Assumption: Incoming block headers are not from a false chain
+
+Connect to many different nodes
+
+Long term, chain is probably honest
+
+Can't really afford to put the entire blockchain on your phone, so having a thin client is a decent tradeoff
